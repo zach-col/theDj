@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DJ</title>
+  <!-- home.css -->
+  <link rel="stylesheet" href="css/home.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+#home{
+  color: #fff;
+  background: url(img/dj.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#homeContainer{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 30px;
+}
+#homeHeader{
+  text-align: center;
+}
+@media only screen and (min-width:700px){
+  #homeHeader{
+    margin-bottom: 50px;
+  }
+}
+#homeInfo{
+  text-align: center;
+}
+@media only screen and (min-width:700px){
+  #homeInfo{
+    margin-top: 40px;
+  } 
+}
+.headerLink{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body{
+  position: relative;
+  margin: 0;
+}
+img{
+  margin:0 auto;
+}
+#track{
+  color: white;
+  background: url(img/pic1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+#trackContainer{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 15px;
+}
+#trackHeader{
+  text-align: center;
+}
+.trackName{
+  text-align: center;
+}
+@media only screen and (max-width:700px){
+  .trackName{
+    margin-bottom: 100px;
+  } 
+}
+.trackImg{
+  height: 200px;
+  margin-top: 20px;
+}
+#test{
+  color: white;
+  background: url(img/pic2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#testContainer{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 15px;
+}
+#testHeader{
+  text-align: center;
+}
+.testImg{
+  height: 200px;
+  border-radius: 50%;
+}
+.testInfo{
+  text-align: center;
+}
+.testName{
+  color: grey;
+}
+.testCol{
+  margin-top: 160px;
+}
+@media only screen and (max-width:700px){
+  .testCol{
+    margin-top: 60px;
+  } 
+}
+#contact{
+  color: white;
+  background-color: black;
+}
+#contactContainer{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 15px;
+}
+#contactHeader{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contactImg{
+  border-radius: 50%;
+  height: 200px;
+  margin: 0 auto;
+}
+.contactInfo{
+  text-align: center;
+}
+.greySpan{
+  color:grey;
+}
+/* navbar */
+.navbar-inverse {
+  background-color: white;
+  border-color: white;
+}
+.navbar-inverse .navbar-brand {
+  color: black;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: black;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: grey;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: grey;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: grey;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: grey;
+  background-color: transparent;
+}
+.navbar-inverse {
+  background-color: white;
+  border-top: 2px solid grey;
+}
+  </style>
+</head>
+<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#home">Dj Rock</a>
+	    </div>
+	    <div>
+	      <div class="collapse navbar-collapse" id="myNavbar">
+	        <ul class="nav navbar-nav navbar-right">
+	          <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#home">Home</a></li>
+              <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#track">Track's</a></li>
+              <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#test">Testominal's</a></li>
+              <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#contact">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+    </nav>
+	<div id="home" class="container-fluid">
+      <div class="jumbotron" id="homeContainer">
+	    <h1 id="homeHeader">Dj Rock is in the House</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <img class="img-responsive" src="img/person.png">
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12">
+              <h3 class="text">Hey I'm Dj rock one of the most known Dj's of Austin Texas I specilazie in creating beats for all venues from family get together's to insane block party's.</h3>
+              <h3 class="testInfo">One of the key factor's that I take in to corridition it how the beat is going to sound when they all got together,
+              there are ton's of dj's out there so why choose me to that I will say I have over 200 venue's under my belt.
+              another thing that you should never forget is what should be typed here for like example text</h3>
+            </div>
+          </div>
+          <h3 id="homeInfo">Checkout some of my<a class="headerLink" href="#track">Tracks</a> or <a class="headerLink" href="#test">Testominal's</a></h3>
+	    </div><!-- end of home container -->
+    </div>
+    <div id="track" class="container-fluid">
+      <div class="jumbotron" id="trackContainer">
+        <h2 id="trackHeader">Custom Track's</h2>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <img class="img-responsive trackImg" src="img/music1.jpg"/>
+            <h2 class="trackName">Green hot jalapenos</h2>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <img class="img-responsive trackImg" src="img/music2.jpg"/>
+            <h2 class="trackName">Am I dreaming?</h2>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <img class="img-responsive trackImg" src="img/music3.jpg"/>
+            <h2 class="trackName">timeless</h2>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <img class="img-responsive trackImg" src="img/music4.jpg"/>
+            <h2 class="trackName"> pluto 2321</h2>
+          </div>
+        </div>
+      </div><!-- end of track container -->
+    </div>
+    <div id="test" class="container-fluid">
+      <div class="jumbotron" id="testContainer">
+        <h2 id="testHeader">Testamonial's</h2>
+        <div class="row testCol">
+          <div class="col-lg-4 col-md-4">
+            <img class="img-responsive testImg"  src="img/test1.png"/>
+          </div>
+          <div class="col-lg-8 col-md-8">
+              <h2 class="testText">"dj rock is one of the best dj's I had him at my party and everyone talked about it for weeks" - <span class="testName">Jessica Tyson</      span></h2>
+          </div>
+        </div>
+        <div class="row testCol">
+          <div class="col-lg-4 col-md-4">
+            <img class="img-responsive testImg"  src="img/person.png"/>
+          </div>
+          <div class="col-lg-8 col-md-8">
+              <h2 class="testText">"dj rock is one of the best dj's I had him at my party and everyone talked about it for weeks" - <span class="testName">Jessica Tyson</      span></h2>
+          </div>
+        </div>
+      </div><!-- end of test container -->
+    </div>
+
+    <div id="contact" class="container-fluid">
+      <div class="jumbotron" id="contactContainer">
+        <h2 id="contactHeader">Contact</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-responsive contactImg" src="img/person.png">
+            <h2 class="contactInfo"><span class="greySpan">Email</span>: djrock@example.com</h2>
+          </div>
+          <div class="col-lg-4">
+            <img class="img-responsive contactImg" src="img/person.png">
+            <h2 class="contactInfo"><span class="greySpan">Phone</span>: 512-000-0000</h2>
+          </div>
+          <div class="col-lg-4">
+            <img class="img-responsive contactImg" src="img/person.png">
+            <h2 class="contactInfo"><span class="greySpan">Mail</span>: austin djrock ln 1234</h2>
+          </div>
+        </div>
+        </div><!-- end of contact container -->
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/navbar.js"></script>
+
+</body>
+</html>
