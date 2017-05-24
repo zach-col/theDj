@@ -5,177 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DJ</title>
-  <!-- home.css -->
-  <link rel="stylesheet" href="css/home.css">
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <style>
-#home{
-  color: #fff;
-  background: url(img/dj.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#homeContainer{
-  background-color: rgba(0,0,0,0.8);
-  margin-top: 30px;
-}
-#homeHeader{
-  text-align: center;
-}
-@media only screen and (min-width:700px){
-  #homeHeader{
-    margin-bottom: 50px;
-  }
-}
-#homeInfo{
-  text-align: center;
-}
-.text{
-  text-align: center;
-}
-@media only screen and (min-width:700px){
-  #homeInfo{
-    margin-top: 40px;
-  } 
-}
-.headerLink{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-body{
-  position: relative;
-  margin: 0;
-}
-img{
-  margin:0 auto;
-}
-#track{
-  color: white;
-  background: url(img/pic1.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  }
-#trackContainer{
-  background-color: rgba(0,0,0,0.8);
-  margin-top: 15px;
-}
-#trackHeader{
-  text-align: center;
-}
-.trackName{
-  text-align: center;
-}
-@media only screen and (max-width:700px){
-  .trackName{
-    margin-bottom: 100px;
-  } 
-}
-.trackImg{
-  height: 200px;
-  margin-top: 20px;
-}
-#test{
-  color: white;
-  background: url(img/pic2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#testContainer{
-  background-color: rgba(0,0,0,0.8);
-  margin-top: 15px;
-}
-#testHeader{
-  text-align: center;
-}
-.testImg{
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-.testInfo{
-  text-align: center;
-}
-.testName{
-  color: grey;
-}
-.testCol{
-  margin-top: 160px;
-}
-@media only screen and (max-width:700px){
-  .testCol{
-    margin-top: 60px;
-  } 
-}
-#contact{
-  color: white;
-  background-color: black;
-}
-#contactContainer{
-  background-color: rgba(0,0,0,0.8);
-  margin-top: 15px;
-}
-#contactHeader{
-  text-align: center;
-  margin-bottom: 30px;
-}
-.contactImg{
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
-}
-.contactInfo{
-  text-align: center;
-  margin-bottom: 46px;
-}
-.greySpan{
-  color:grey;
-}
-/* navbar */
-.navbar-inverse {
-  background-color: white;
-  border-color: white;
-}
-.navbar-inverse .navbar-brand {
-  color: black;
-}
-.navbar-inverse .navbar-nav>li>a {
-  color: black;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: black;
-}
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-  background-color: white;
-}
-.navbar-inverse .navbar-nav>li>a:hover {
-  color: grey;
-  background-color: transparent;
-}
-.navbar-inverse .navbar-brand:hover {
-  color: grey;
-  background-color: transparent;
-}
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-  color: grey;
-  background-color: transparent;
-}
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-  color: grey;
-  background-color: transparent;
-}
-.navbar-inverse {
-  background-color: white;
-  border-top: 2px solid grey;
-}
-  </style>
+  <!-- navbar css -->
+  <link rel="stylesheet" href="css/nav.css">
+  <!-- home css -->
+  <link rel="stylesheet" href="css/index.css">
+  <!-- tracks css -->
+  <link rel="stylesheet" href="css/tracks.css">
+  <!-- test css -->
+  <link rel="stylesheet" href="css/test.css">
+  <!-- contact css -->
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -207,7 +48,7 @@ img{
 	    <h1 id="homeHeader">Dj Rock is in the House</h1>
           <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12">
-              <img class="img-responsive" src="img/person.png">
+              <img class="img-responsive" id="djImage" src="img/djImage.jpg">
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12">
               <h3 class="text">Hey I'm Dj rock one of the most known Dj's of Austin Texas I specialize in creating beats for all venues from family get together's to insane block party's.</h3>

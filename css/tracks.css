@@ -1,0 +1,28 @@
+/* music track area*/
+#track{
+  color: white;
+  background: url(../img/pic1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+#trackContainer{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 15px;
+}
+#trackHeader{
+  text-align: center;
+}
+.trackName{
+  text-align: center;
+}
+@media only screen and (max-width:700px){
+  .trackName{
+    margin-bottom: 100px;
+  } 
+}
+.trackImg{
+  height: 200px;
+  margin-top: 20px;
+}

@@ -1,0 +1,26 @@
+/* contact area */
+#contact{
+  color: white;
+  background-color: black;
+}
+#contactContainer{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 15px;
+}
+#contactHeader{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contactImg{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+.contactInfo{
+  text-align: center;
+  margin-bottom: 46px;
+}
+.greySpan{
+  color:grey;
+}

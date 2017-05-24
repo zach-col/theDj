@@ -1,0 +1,47 @@
+/* home area */
+#home{
+  color: #fff;
+  background: url(../img/dj.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#homeContainer{
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 30px;
+}
+#homeHeader{
+  text-align: center;
+}
+@media only screen and (min-width:700px){
+  #homeHeader{
+    margin-bottom: 50px;
+  }
+}
+#homeInfo{
+  text-align: center;
+}
+#djImage{
+  height:300px;
+  margin-bottom: 52px;
+}
+.text{
+  text-align: center;
+}
+@media only screen and (min-width:700px){
+  #homeInfo{
+    margin-top: 40px;
+  } 
+}
+.headerLink{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body{
+  position: relative;
+  margin: 0;
+}
+img{
+  margin:0 auto;
+}
